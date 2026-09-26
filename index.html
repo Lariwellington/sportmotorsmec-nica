@@ -1,1 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Sport Motors - Auto Mecânica em Rolândia</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #050505;
+            padding: 25px 15px;
+            text-align: center;
+            border-bottom: 3px solid #e00000;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .logo span {
+            color: #e00000;
+        }
+
+        header p {
+            margin-top: 8px;
+            color: #ccc;
+        }
+
+        .hero {
+            padding: 70px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #1a1a1a, #000);
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #e00000;
+        }
+
+        .hero p {
+            font-size: 19px;
+            color: #ddd;
+            margin-bottom: 30px;
+        }
+
+        .botao {
+            display: inline-block;
+            background: #e00000;
+            color: white;
+            text-decoration: none;
+            padding: 15px 28px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        .botao:hover {
+            background: #b00000;
+        }
+
+        section {
+            padding: 45px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .titulo {
+            text-align: center;
+            color: #e00000;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .servicos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .card {
+            background: #1c1c1c;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        .card h3 {
+            color: white;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #bbb;
+        }
+
+        .contato {
+            background: #181818;
+            text-align: center;
+        }
+
+        .contato p {
+            margin: 12px 0;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #050505;
+            text-align: center;
+            padding: 25px 15px;
+            color: #aaa;
+            border-top: 2px solid #e00000;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .logo {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SPORT <span>MOTORS</span></div>
+    <p>Auto Mecânica — Seu carro em boas mãos</p>
+</header>
+
+<section class="hero">
+    <h1>Seu carro merece uma <span>mecânica de confiança</span></h1>
+
+    <p>
+        Serviços automotivos para manter seu veículo seguro,
+        revisado e funcionando perfeitamente.
+    </p>
+
+    <a class="botao"
+       href="https://wa.me/5543991475425"
+       target="_blank">
+       Falar pelo WhatsApp
+    </a>
+</section>
+
+<section>
+    <h2 class="titulo">Nossos Serviços</h2>
+
+    <div class="servicos">
+
+        <div class="card">
+            <h3>🔧 Suspensão</h3>
+            <p>Manutenção e reparos no sistema de suspensão.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛑 Freios</h3>
+            <p>Revisão e manutenção do sistema de freios.</p>
+        </div>
+
+        <div class="card">
+            <h3>⚙️ Correia Dentada</h3>
+            <p>Verificação e substituição da correia dentada.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔩 Embreagem</h3>
+            <p>Manutenção e troca do sistema de embreagem.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛢️ Troca de Óleo</h3>
+            <p>Troca de óleo e manutenção preventiva.</p>
+        </div>
+
+        <div class="card">
+            <h3>💧 Limpeza de Bicos</h3>
+            <p>Limpeza e manutenção dos bicos injetores.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚗 Revisão Completa</h3>
+            <p>Revisão geral para deixar seu veículo em dia.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔧 Mecânica em Geral</h3>
+            <p>Serviços de manutenção automotiva em geral.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contato">
+    <h2 class="titulo">Entre em Contato</h2>
+
+    <p>📍 Av. Presidente Getúlio Vargas, 3140 – Centro – Rolândia/PR</p>
+
+    <p>📱 WhatsApp: (43) 99147-5425</p>
+
+    <br>
+
+    <a class="botao"
+       href="https://wa.me/5543991475425"
+       target="_blank">
+       Chamar no WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Sport Motors — Auto Mecânica</p>
+    <p>Rolândia - Paraná</p>
+</footer>
+
+</body>
+  </html>
